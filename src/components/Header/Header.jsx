@@ -7,7 +7,7 @@ import Logo from '../../assets/img/logo.svg';
 
 const Header = () => {
   return (
-    <header className='py-6 mb-12 border-b'>
+    <header className='py-1 mb-12 border-b'>
       <div className='container mx-auto flex justify-between items-center'>
         <Link to='/'>
           <img src={Logo} alt='' />
@@ -17,7 +17,7 @@ const Header = () => {
             Log in
           </Link>
           <Link
-            className='bg-violet-700 hover:bg-violet-800 text-white px-4 py-3 rounded-lg transition'
+            className='bg-violet-700 hover:bg-violet-800 text-white px-3 py-1 rounded-lg transition'
             to='/'
           >
             Sign up
